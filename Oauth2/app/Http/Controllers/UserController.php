@@ -12,4 +12,9 @@ class UserController extends Controller
         $users = User::all();
         return view('admin.tables', compact('users'));
     }
+    public function destroy(User $user)
+{
+    $user->delete();
+    return back()->with('success', 'User successfully deleted.');
+}
 }

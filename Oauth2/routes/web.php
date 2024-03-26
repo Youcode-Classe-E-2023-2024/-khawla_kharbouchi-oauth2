@@ -34,3 +34,4 @@ Route::get('/home', function () {
     return view('home');
 });
 Route::get('/table', [UserController::class, 'index'])->name('users.index');
+Route::delete('/users/{user}', [UserController::class, 'destroy'])->name('users.destroy');
