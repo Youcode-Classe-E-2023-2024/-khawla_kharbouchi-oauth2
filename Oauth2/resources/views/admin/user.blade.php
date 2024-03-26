@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="../assets/img/favicon.png">
-  <title>
-    Black_Dashboard
-  </title>
+  <title>Black_Dashboard</title>
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
@@ -26,20 +23,20 @@
       <div class="sidebar-wrapper">
         <div class="logo">
           <a href="javascript:void(0)" class="simple-text logo-mini">
-            CT
+            KH
           </a>
           <a href="javascript:void(0)" class="simple-text logo-normal">
-            Creative Tim
+            Kharbouchi
           </a>
         </div>
         <ul class="nav">
-          <li class="active ">
+          <li>
             <a href="/admin">
               <i class="tim-icons icon-chart-pie-36"></i>
               <p>Dashboard</p>
             </a>
           </li>
-          <li>
+          <li class="active ">
             <a href="">
               <i class="tim-icons icon-single-02"></i>
               <p>User Profile</p>
@@ -48,7 +45,7 @@
           <li>
             <a href="tables.blade.php">
               <i class="tim-icons icon-puzzle-10"></i>
-              <p>Table List</p>
+              <p>Users List</p>
             </a>
           </li>
         </ul>

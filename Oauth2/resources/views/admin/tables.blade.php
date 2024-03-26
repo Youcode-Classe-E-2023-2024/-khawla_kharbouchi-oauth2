@@ -21,20 +21,20 @@
   <link href="../assets/demo/demo.css" rel="stylesheet" />
 </head>
 
-<body class="">
+<body>
   <div class="wrapper">
     <div class="sidebar">
       <div class="sidebar-wrapper">
         <div class="logo">
           <a href="javascript:void(0)" class="simple-text logo-mini">
-            CT
+            KH
           </a>
           <a href="javascript:void(0)" class="simple-text logo-normal">
-            Creative Tim
+            Kharbouchi
           </a>
         </div>
         <ul class="nav">
-          <li class="active ">
+          <li >
             <a href="/admin">
               <i class="tim-icons icon-chart-pie-36"></i>
               <p>Dashboard</p>
@@ -46,10 +46,10 @@
               <p>User Profile</p>
             </a>
           </li>
-          <li>
-            <a href="tables.blade.php">
+          <li class="active ">
+            <a href="/table">
               <i class="tim-icons icon-puzzle-10"></i>
-              <p>Table List</p>
+              <p>Users List</p>
             </a>
           </li>
         </ul>
@@ -137,7 +137,7 @@
           <div class="col-md-12">
             <div class="card ">
               <div class="card-header">
-                <h4 class="card-title"> Simple Table</h4>
+                <h4 class="card-title">Manager users</h4>
               </div>
               <div class="card-body">
                 <div class="table-responsive">
@@ -148,13 +148,13 @@
                           Name
                         </th>
                         <th>
-                          Country
+                          Email
                         </th>
                         <th>
-                          City
+                          Modification
                         </th>
                         <th class="text-center">
-                          Salary
+                          Supprimer
                         </th>
                       </tr>
                     </thead>
