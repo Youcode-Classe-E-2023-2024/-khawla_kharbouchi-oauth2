@@ -141,8 +141,10 @@
               </div>
               <div class="card-body">
                 <div class="table-responsive">
+                  
                   <table class="table tablesorter " id="">
                     <thead class=" text-primary">
+
                       <tr>
                         <th>
                           Name
@@ -156,17 +158,19 @@
                       </tr>
                     </thead>
                     <tbody>
+                      @foreach ($users as $user)
                       <tr>
                         <td>
-                          Dakota Rice
+                          {{ $user->name }}
                         </td>
                         <td>
-                         khawlakha603@gmail.com
+                          {{ $user->email }}
                         </td>
                         <td class="text-center">
                           <button type="button" class="btn btn-danger">Supprimer</button>
                         </td>
                       </tr>
+                      @endforeach
                     </tbody>
                   </table>
                 </div>

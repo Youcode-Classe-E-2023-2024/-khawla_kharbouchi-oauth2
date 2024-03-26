@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,3 +33,4 @@ Route::get('/profile', function () {
 Route::get('/home', function () {
     return view('home');
 });
+Route::get('/table', [UserController::class, 'index'])->name('users.index');
