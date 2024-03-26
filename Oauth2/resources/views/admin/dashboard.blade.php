@@ -48,7 +48,7 @@
             </a>
           </li>
           <li>
-            <a href="tables.blade.php">
+            <a href="/table">
               <i class="tim-icons icon-puzzle-10"></i>
               <p>Table List</p>
             </a>
