@@ -150,9 +150,6 @@
                         <th>
                           Email
                         </th>
-                        <th>
-                          Modification
-                        </th>
                         <th class="text-center">
                           Supprimer
                         </th>
@@ -165,9 +162,6 @@
                         </td>
                         <td>
                          khawlakha603@gmail.com
-                        </td>
-                        <td>
-                          <button type="button" class="btn btn-primary">Modifier</button>
                         </td>
                         <td class="text-center">
                           <button type="button" class="btn btn-danger">Supprimer</button>
