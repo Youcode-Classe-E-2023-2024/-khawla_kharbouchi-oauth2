@@ -28,3 +28,7 @@ Route::get('/table', function () {
 Route::get('/profile', function () {
     return view('admin.user');
 });
+
+Route::get('/home', function () {
+    return view('home');
+});
