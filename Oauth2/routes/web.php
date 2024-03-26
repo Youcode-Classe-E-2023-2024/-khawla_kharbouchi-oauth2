@@ -24,3 +24,7 @@ Route::get('/admin', function () {
 Route::get('/table', function () {
     return view('admin.tables');
 });
+
+Route::get('/profile', function () {
+    return view('admin.user');
+});

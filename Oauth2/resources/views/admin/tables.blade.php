@@ -41,7 +41,7 @@
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="/profile">
               <i class="tim-icons icon-single-02"></i>
               <p>User Profile</p>
             </a>

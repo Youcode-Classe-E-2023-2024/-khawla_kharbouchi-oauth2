@@ -37,13 +37,13 @@
             </a>
           </li>
           <li class="active ">
-            <a href="">
+            <a href="/profile">
               <i class="tim-icons icon-single-02"></i>
               <p>User Profile</p>
             </a>
           </li>
           <li>
-            <a href="tables.blade.php">
+            <a href="/table">
               <i class="tim-icons icon-puzzle-10"></i>
               <p>Users List</p>
             </a>
