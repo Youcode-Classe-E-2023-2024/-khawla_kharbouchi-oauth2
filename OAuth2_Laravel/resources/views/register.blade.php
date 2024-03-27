@@ -50,7 +50,7 @@
         }
 
         form {
-            height: 520px;
+            height: 620px;
             width: 400px;
             background-color: rgba(255, 255, 255, 0.13);
             position: absolute;
@@ -119,27 +119,7 @@
             display: flex;
         }
 
-        .social div {
-            background: red;
-            width: 150px;
-            border-radius: 3px;
-            padding: 5px 10px 10px 5px;
-            background-color: rgba(255, 255, 255, 0.27);
-            color: #eaf0fb;
-            text-align: center;
-        }
-
-        .social div:hover {
-            background-color: rgba(255, 255, 255, 0.47);
-        }
-
-        .social .fb {
-            margin-left: 25px;
-        }
-
-        .social i {
-            margin-right: 4px;
-        }
+       
     </style>
 </head>
 
@@ -148,8 +128,8 @@
         <div class="shape"></div>
         <div class="shape"></div>
     </div>
-    <form action="{{ route('register') }}" method="POST">
-        @csrf <!-- Protection CSRF -->
+    <form action="#" method="POST">
+        <!-- Protection CSRF -->
         <h3>Register Here</h3>
 
         <label for="name">Username</label>
@@ -162,10 +142,7 @@
         <input type="password" placeholder="Password" id="password" name="password">
 
         <button type="submit">Register</button>
-        <div class="social">
-            <div class="go"><i class="fab fa-google"></i> Google</div>
-            <div class="fb"><i class="fab fa-facebook"></i> Facebook</div>
-        </div>
+        <p>I have <a href=""><span>Account</span></a></p>
     </form>
 </body>
 </html>

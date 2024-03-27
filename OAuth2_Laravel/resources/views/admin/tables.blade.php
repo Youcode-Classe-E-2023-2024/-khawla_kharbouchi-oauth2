@@ -141,23 +141,18 @@
                       </tr>
                     </thead>
                     <tbody>
-                      @foreach ($users as $user)
+                      
                       <tr>
                         <td>
-                          {{ $user->name }}
+                          khawla
                         </td>
                         <td>
-                          {{ $user->email }}
+                          khawla@gmail.com
                         </td>
                         <td class="text-center">
-                          <form action="{{ route('users.destroy', $user->id) }}" method="POST">
-                            @csrf
-                            @method('DELETE')
                             <button type="submit" class="btn btn-danger">Supprimer</button>
-                        </form>
                         </td>
                       </tr>
-                      @endforeach
                     </tbody>
                   </table>
                 </div>

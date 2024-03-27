@@ -148,8 +148,7 @@
         <div class="shape"></div>
         <div class="shape"></div>
     </div>
-    <form action="{{ route('login') }}" method="POST">
-        @csrf <!-- Protection CSRF -->
+    <form action="#" method="POST">
         <h3>Login Here</h3>
 
         <label for="email">Email</label>
