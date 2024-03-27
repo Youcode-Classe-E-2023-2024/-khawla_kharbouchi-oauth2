@@ -128,8 +128,8 @@
         <div class="shape"></div>
         <div class="shape"></div>
     </div>
-    <form action="#" method="POST">
-        <!-- Protection CSRF -->
+    <form action="/register" method="POST">
+        @csrf 
         <h3>Register Here</h3>
 
         <label for="name">Username</label>
@@ -142,7 +142,7 @@
         <input type="password" placeholder="Password" id="password" name="password">
 
         <button type="submit">Register</button>
-        <p>I have <a href=""><span>Account</span></a></p>
+        <p>I have <a href="/login"><span>Account</span></a></p>
     </form>
 </body>
 </html>

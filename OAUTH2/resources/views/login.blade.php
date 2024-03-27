@@ -148,11 +148,12 @@
         <div class="shape"></div>
         <div class="shape"></div>
     </div>
-    <form action="#" method="POST">
+    <form action="/login" method="POST">
+        @csrf
         <h3>Login Here</h3>
 
         <label for="email">Email</label>
-        <input type="text" placeholder="Email or Phone" id="email" name="email">
+        <input type="email" placeholder="Email or Phone" id="email" name="email">
 
         <label for="password">Password</label>
         <input type="password" placeholder="Password" id="password" name="password">
