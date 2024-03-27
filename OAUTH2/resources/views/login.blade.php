@@ -164,5 +164,19 @@
             <div class="fb"><i class="fab fa-facebook"></i> Facebook</div>
         </div>
     </form>
+    <script>
+        fetch('https://votre-api.com/route-protegee', {
+  method: 'GET',
+  headers: {
+    'Authorization': 'khawla12',
+    'Accept': 'application/json',
+    'Content-Type': 'application/json'
+  }
+})
+.then(response => response.json())
+.then(data => console.log(data))
+.catch(error => console.error('Erreur:', error));
+
+    </script>
 </body>
 </html>

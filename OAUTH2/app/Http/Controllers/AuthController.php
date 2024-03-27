@@ -21,7 +21,7 @@ class AuthController extends Controller
         'password' => bcrypt($validatedData['password']),
     ]);
 
-    $token = $user->createToken('YourAppToken')->accessToken;
+    $token = $user->createToken('loginAppToken')->accessToken;
 
     return response()->json(['token' => $token], 200);
 }
