@@ -148,17 +148,20 @@
         <div class="shape"></div>
         <div class="shape"></div>
     </div>
-    <form action="{{ route('login') }}" method="POST">
+    <form action="{{ route('register') }}" method="POST">
         @csrf <!-- Protection CSRF -->
-        <h3>Login Here</h3>
+        <h3>Register Here</h3>
+
+        <label for="name">Username</label>
+        <input type="text" placeholder="Username" id="name" name="name">
 
         <label for="email">Email</label>
-        <input type="text" placeholder="Email or Phone" id="email" name="email">
+        <input type="email" placeholder="Email" id="email" name="email">
 
         <label for="password">Password</label>
         <input type="password" placeholder="Password" id="password" name="password">
 
-        <button type="submit">Log In</button>
+        <button type="submit">Register</button>
         <div class="social">
             <div class="go"><i class="fab fa-google"></i> Google</div>
             <div class="fb"><i class="fab fa-facebook"></i> Facebook</div>

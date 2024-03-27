@@ -36,10 +36,13 @@ Route::get('/home', function () {
 Route::get('/table', [UserController::class, 'index'])->name('users.index');
 Route::delete('/users/{user}', [UserController::class, 'destroy'])->name('users.destroy');
 
+
 Route::middleware('auth:api')->get('/home', function (Request $request) {
     return $request->user();
 });
-
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+Route::get('/login', function () {
+    return view('login');
+});
+Route::get('/', function () {
+    return view('register');
 });
